@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    width: 100%;
+}
+
+.titlename {
+    text-align: center;
+    font-size: 32px;
+    /* animation: titleeffect 2s linear infinite; */
+}
+
+.cntext {
+    text-align: center;
+}
+
+.ui-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* 更改照片大小 */
+.ui-listview .ui-li-has-thumb>img:first-child, .ui-listview .ui-li-has-thumb>.ui-btn>img:first-child, .ui-listview .ui-li-has-thumb .ui-li-thumb {
+    height: 113px;
+    width: 128px;
+}
+
+
+
+/*  已從內部修改
+.ui-listview .ui-li-has-thumb>img:first-child, .ui-listview .ui-li-has-thumb>.ui-btn>img:first-child, .ui-listview .ui-li-has-thumb .ui-li-thumb {
+    max-height: 8em!important;
+    max-width: 8em!important;
+} */
+
+/* 已從內部修改
+.ui-listview>.ui-li-has-thumb>.ui-btn, .ui-listview>.ui-li-static.ui-li-has-thumb {
+    min-height: 5.625em!important;
+    padding-left: 8.25em!important;
+} */
+
+.ui-footer {
+    border-width:1px 0;
+    border-style:solid;
+    width: 100%;
+}
+
+* {
+    text-shadow: none !important;
+}
+
+.ui-body-c, .ui-header, .ui-footer {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* Accordion */
+.accordion-panel {
+    display: none;
+}
+
+.accordion {
+    padding-inline-start: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accordion li {
+    width: 100%;
+}
+
+.accordion li img {
+    width: 100%;
+}
+
+
+@keyframes titleeffect {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
